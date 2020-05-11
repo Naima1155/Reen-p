@@ -1,0 +1,450 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5,  h6{
+    font-family: 'Lato', sans-serif;
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+.header-section{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #f5f7fa;
+}
+.mobile-contact{
+    margin: 0px;
+    text-align: left;
+
+    
+}
+.mobile-contact li{
+    list-style: none;
+    display: inline-block;
+   
+}
+.mobile-contact li a{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #798da2;
+
+
+}
+.mobile-contact li a .fa{
+    margin-right: 10px;
+
+}
+.social-contact{
+    margin: 0px;
+    text-align: right;
+
+    
+}
+.social-contact li{
+    list-style: none;
+    display: inline-block;
+    
+    
+
+}
+.social-contact li a{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #798da2;
+
+}
+.social-contact li a .fa{
+    margin-left: 12px;
+
+}
+.social-contact li a:hover{
+    color: #00bc9c;
+}
+.main-menu{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: #7c8fa3;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 700;
+    margin-left: 20px;
+}
+.main-menu .navbar-light .navbar-nav active>.nav-link{
+    color: #7c8fa3;
+}
+.main-menu .fa-search{
+    color:#7c8fa3 ;
+}
+.slider .container-fluid{
+    padding: 0px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 32%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+ .slider .carousel-caption h5{
+     font-size: 45px;
+     line-height: 55px;
+     font-weight: 800;
+     text-transform: uppercase;
+     color: #fff;
+
+}
+.slider .carousel-caption p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+
+}
+.slider .carousel-caption .btn-info{
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid#00bc9c;
+    border-radius: 2px;
+
+}
+.slider .carousel-caption .btn-info:hover{
+    color:#00bc9c ;
+    background: transparent;
+    border: 1px solid #00bc9c;
+}
+.responsive{
+    width: 100%;
+}
+.responsive-inner{
+    width: 100%;
+}
+.responsive-inner h4{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;                                                                                                               
+    color: #506a85;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.responsive-inner  p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;                                                                                                               
+    color: #506a85;
+    margin-top: 30px;
+    margin-bottom: 80px;
+                                                                                                                         
+}
+
+.responsive .media h5{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;                                                                                                               
+    color: #506a85;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.responsive .media .media-body p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;                                                                                                               
+    color: #506a85;
+    margin-bottom: 20px;
+
+}
+.latest{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f5f7;
+}
+.latest .latest-tittle h4{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;                                                                                                               
+    color: #506a85;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.latest .latest-tittle p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;                                                                                                               
+    color: #506a85;
+    margin-top: 20px;
+    margin-bottom: 60px;
+                          
+}
+.card-body h5{
+    color: #506a85;
+
+}
+.card-body p{
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;                                                                                                               
+    color: #506a85;
+
+}
+.latest .owl-carousel{
+    padding-top: 80px;
+}
+.latest .owl-carousel .item{
+    margin: 10px 0px;
+    border: 1px solid #00bc9c;
+}
+.work{
+    width: 100%;
+    padding: 80px 0px;
+}
+.work-inner h4{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;                                                                                                               
+    color: #506a85;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+
+}
+.work-inner  p{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;                                                                                                               
+    color: #506a85;
+    margin-top: 10px;
+    margin-bottom: 25px;
+                                                                                                                         
+}
+.work-inner  .btn-info{
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid#00bc9c;
+    border-radius: 2px;
+
+}
+.work-inner  .btn-info:hover{
+    color:#00bc9c ;
+    background: transparent;
+    border: 1px solid #00bc9c;
+}
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #2f4052;
+}
+.footer .inner1 h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400; 
+    text-transform: uppercase;                                                                                                              
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+.footer .inner1 img{
+    margin-bottom: 20px;
+}
+.footer .inner1 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+   
+
+}
+.footer .inner1 a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+   
+
+}
+.footer .inner1 .fa{
+    color: #a3b1bf;
+    margin-left: 8px;
+
+}
+.footer .inner2{
+    width: 100%;
+}
+.footer .inner2 h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400; 
+    text-transform: uppercase;                                                                                                              
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+.footer .inner2 img {
+    margin: 2px 2px 2px;
+    /* margin-left: 7px; */
+    /* margin-top: 7px; */
+}
+.footer .inner2 .img1 img{
+    width: 48%;
+    float: left;
+
+}
+.footer .inner2 .img2 img {
+    width: 48%;
+    float: left;
+    
+}
+.footer .inner3 h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400; 
+    text-transform: uppercase;                                                                                                              
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+.footer .inner3 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+    margin-bottom: 40px;
+   
+
+}
+.footer .inner3 a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400; 
+    color: #a3b1bf;
+}
+.footer .inner3 ul li{
+    list-style: none;
+    
+
+}
+
+.footer .inner3 .fa{
+    margin-right: 8px;
+    padding-left: 5px;
+} 
+.footer .inner4 h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400; 
+    text-transform: uppercase;                                                                                                              
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer .inner4 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+    margin-bottom: 40px;
+   
+}
+.footer .inner4 .form-group .form-control{
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    border: 1px solid #4e5c6c;
+    background: #4e5c6c;
+    font-size: 12px;
+    border-radius: 5px;
+
+
+}
+.footer .inner4  .btn-primary{
+    position: absolute;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00bc9c;
+    border: 1px solid#00bc9c;
+    border-radius: 2px;
+
+}
+.footer .inner4  .btn-primary:hover{
+    color:#00bc9c ;
+    background: transparent;
+    border: 1px solid #00bc9c;
+}
+.bottom-footer{
+    width: 100%;
+    padding: 30px 0px;
+    background: #283645;
+}
+.bottom-footer .b-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+   
+
+}
+.bottom-footer .nav .nav-item a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;                                                                                                               
+    color: #a3b1bf;
+    padding-right: 30px;
+   
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgb(34, 34, 70);
+}
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+
+}
+

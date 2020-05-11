@@ -1,0 +1,95 @@
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+   
+    .main-menu .fa-search {
+        color: #7c8fa3;
+        margin-left: 18px;
+    }
+    .mobile-contact li a {
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-right: 35px;
+        color: #798da2;
+    }
+    .social-contact {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .responsive-inner h4 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #506a85;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .responsive-inner p {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #506a85;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .footer .inner4 .btn-primary {
+        position: absolute;
+        padding: 5px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        background: #00bc9c;
+        border: 1px solid#00bc9c;
+        border-radius: 2px;
+    }
+    .work {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .bottom-footer {
+        width: 100%;
+        padding: 15px 0px;
+        background: #283645;
+    }
+    .bottom-footer .b-inner p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #a3b1bf;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .bottom-footer .nav .nav-item a {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #a3b1bf;
+        padding-right: 3px;
+    }
+    
+    
+}
+@media screen and (max-width: 992px) {
+    .slider .carousel-caption h5 {
+        font-size: 30px;
+        /* line-height: 55px; */
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .slider .carousel-caption p {
+        font-size: 16px;
+        /* line-height: 26px; */
+        color: #a3b1bf;
+        margin-bottom: 0px;
+    }
+    
+}
